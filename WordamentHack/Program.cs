@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace WordamentHack
@@ -62,10 +63,17 @@ namespace WordamentHack
                 rt = sw.ElapsedMilliseconds;
             }
 
-            var p = Process.GetProcessesByName("notepad")[0];
+            var p = Process.GetProcessesByName("Microsoft Ultimate Word Games")[0];
             var handle = p.MainWindowHandle;
             SetForegroundWindow(handle);
-
+            Console.WriteLine("Give Wordament app focus");
+            Console.Write("Hacking in ");
+            for (int i = 5; i > 0; i--)
+            {
+                Console.Write(i);
+                Thread.Sleep(1000);
+            }
+            Console.WriteLine();
             var itemNo = 1;
             foreach (var word in found.Distinct().OrderByDescending(w => w.Length))
             {
