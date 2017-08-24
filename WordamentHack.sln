@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordamentHack", "WordamentHack\WordamentHack.csproj", "{D55A8014-F640-4B03-BB29-89EC1F3113BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D55A8014-F640-4B03-BB29-89EC1F3113BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55A8014-F640-4B03-BB29-89EC1F3113BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55A8014-F640-4B03-BB29-89EC1F3113BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55A8014-F640-4B03-BB29-89EC1F3113BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
