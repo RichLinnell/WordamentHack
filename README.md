@@ -10,7 +10,7 @@ The code uses a Scrabble dictionary that I found online.  It excludes all words 
 
 Known issues :
 
->You have type the grid in yourself - it doesn't screen grab.
->It doesn't cater for the -ly, Lik- or XX type cells at the moment.  It really doent matter, just type in a number for these cells, you'll still win.
->It doesn't give the app the focus automatically.  Not sure why, I'll look at this next.
->The algo for finding the words needs a bit of a tidy up, it's bloated at the moment from my initial workings, I'll look at this next too.
+* You have type the grid in yourself - it doesn't screen grab.
+* It doesn't cater for the -ly, Lik- or XX type cells at the moment.  It really doent matter, just type in a number for these cells, you'll still win.
+* It doesn't give the app the focus automatically.  Not sure why, I'll look at this next.
+* The algo for finding the words needs a bit of a tidy up, it's bloated at the moment from my initial workings, I'll look at this next too.
